@@ -1,0 +1,7 @@
+ingress:
+  enabled: true
+  hostname: 156.194.64.211.nip.io
+  tls: true
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+  tlsSecret: tls-secret
